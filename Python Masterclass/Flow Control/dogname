@@ -1,0 +1,9 @@
+dog_name = str(input("Please enter the dog's name:"))
+dog_name = dog_name.casefold()
+
+if dog_name == "murris":
+    print("{} is a male dog".format(dog_name))
+elif dog_name == "maisy":
+    print("{} is a female dog".format(dog_name))
+else:
+    print("This is not one of your dog's names!")
